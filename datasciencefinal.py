@@ -96,7 +96,7 @@ print(f"Random Forest Accuracy: {accuracy:.10f}")
 
 
 import seaborn as sns
-# Fetching the important features from the model
+# Fetching the important features from the model.
 importances = model.feature_importances_
 
 # Transforming the features into data frame
